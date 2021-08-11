@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Template is working</title>
+   </head>
+   <body>
+      <a href="http://127.0.0.1:8000/"> Home </a> |
+      <a href="http://127.0.0.1:8000/about/"> About </a>
+      <h1>Welcome to Text Analyzer</h1>
+      <form action="/analyze" method="get">
+         Enter text: <br>
+         <textarea name="text" style="margin: 0px; width: 609px; height: 77px;"></textarea> <br>
+         <input type="checkbox" name="removepunc"> Remove Punctuations <br>
+         <input type="checkbox" name="fullcaps"> UPPERCASE <br>
+         <input type="checkbox" name="newlineremover"> New Line Remover <br>
+         <input type="checkbox" name="extraspaceremover"> Extra Space Remover <br>
+         <input type="checkbox" name="charcounter"> Character Counter <br>
+         <button type="submit"> Analyze text </button>
+      </form>
+   </body>
+</html>
